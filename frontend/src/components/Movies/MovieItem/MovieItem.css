@@ -1,0 +1,209 @@
+.movie-item-link {
+  text-decoration: none;
+  width: 47%;
+}
+.result-item-link {
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.movie-item-container {
+  width: 100%;
+}
+.result-item-container {
+  display: flex;
+}
+.thumbnail-card {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.result-thumbnail-card {
+  height: 100%;
+  width: 100%;
+  max-width: 350px;
+  margin-right: 10px;
+}
+.thumbnail-image {
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  aspect-ratio: 1.8 / 1;
+}
+.movie-content-card {
+  width: 100%;
+}
+.result-content-card {
+  width: 100%;
+}
+.movie-rating {
+  font-size: 11px;
+  color: #a2a2a2;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.movie-rating .movie-star-icon {
+  font-size: 14px;
+  color: #c8a91f;
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+.movie-title {
+  color: #dedede;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.result-title {
+  color: #dedede;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.movie-genre {
+  font-size: 10px;
+  font-weight: 500;
+  color: #a2a2a2;
+  margin-bottom: 2px;
+}
+.result-genre {
+  font-size: 11px;
+  font-weight: 500;
+  color: #a2a2a2;
+  margin-bottom: 2px;
+}
+.movie-year {
+  font-size: 11px;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+.result-year {
+  font-size: 11px;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+
+@media screen and (min-width: 640px) {
+  .movie-item-link {
+    width: 31%;
+  }
+  .result-item-link {
+    margin-bottom: 7px;
+  }
+  .result-content-card {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .movie-rating {
+    font-size: 12px;
+  }
+  .movie-rating .movie-star-icon {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .result-title {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .result-genre {
+    font-size: 13px;
+  }
+  .result-year {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .thumbnail-card {
+    margin-bottom: 10px;
+  }
+  .thumbnail-image {
+    border-radius: 5px;
+  }
+  .movie-title {
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+  .movie-genre {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+  .movie-year {
+    font-size: 12px;
+  }
+  .result-item-link {
+    margin-bottom: 10px;
+  }
+  .result-content-card {
+    margin-left: 14px;
+  }
+  .movie-rating {
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+  .movie-rating .movie-star-icon {
+    font-size: 14px;
+    margin-right: 4px;
+  }
+  .result-title {
+    font-size: 17px;
+    margin-bottom: 8px;
+  }
+  .result-genre {
+    font-size: 14px;
+  }
+  .result-year {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .movie-item-link {
+    width: 22%;
+  }
+  .thumbnail-card {
+    margin-bottom: 11px;
+  }
+  .thumbnail-image {
+    border-radius: 6px;
+  }
+  .movie-rating {
+    font-size: 14px;
+    color: #a2a2a2;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .movie-rating .movie-star-icon {
+    font-size: 16px;
+    margin-right: 5px;
+  }
+  .movie-title {
+    font-size: 14px;
+  }
+  .movie-genre {
+    font-size: 13px;
+  }
+  .movie-year {
+    font-size: 13px;
+  }
+  .result-item-link {
+    margin-bottom: 14px;
+  }
+  .result-content-card {
+    margin-left: 18px;
+  }
+  .result-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .result-genre {
+    font-size: 16px;
+  }
+  .result-year {
+    font-size: 16px;
+  }
+  .movie-item-container:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+  }
+}

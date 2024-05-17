@@ -1,0 +1,168 @@
+.watchlist-list-item-card {
+  background-color: #505050;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 6px;
+  margin: 15px 0px;
+}
+.watchlist-list-item {
+  display: flex;
+  padding: 8px;
+  cursor: pointer;
+}
+.watchlist-image-card {
+  margin-right: 5px;
+}
+.watchlist-movie-image {
+  min-width: 70px;
+  max-width: 70px;
+  height: 100px;
+  width: 100%;
+  border-radius: 6px;
+}
+.watchlist-movie-content {
+  margin-left: 5px;
+}
+.watchlist-movie-title {
+  color: #dedede;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.watchlist-movie-genre {
+  color: #b0b0b0;
+  margin-bottom: 2px;
+  font-size: 10px;
+  font-weight: 500;
+}
+.watchlist-movie-year {
+  color: #b0b0b0;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 10px;
+}
+.watchlist-movie-rating {
+  color: #b0b0b0;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 10px;
+}
+.watchlist-movie-rating .star-icon {
+  font-size: 12px;
+  color: #c9a820;
+  margin-left: 4px;
+  margin-bottom: 3px;
+}
+.delete-icon-card {
+  padding: 8px;
+}
+.delete-icon-card .delete-icon {
+  color: #dedede;
+  font-size: 18px;
+}
+.delete-icon-card .icon {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .watchlist-list-item-card {
+    margin: 18px 0px;
+  }
+  .watchlist-list-item {
+    padding: 10px;
+  }
+  .watchlist-image-card {
+    margin-right: 8px;
+  }
+  .watchlist-movie-image {
+    min-width: 80px;
+    max-width: 80px;
+    height: 90px;
+  }
+  .watchlist-movie-content {
+    margin-left: 8px;
+  }
+  .watchlist-movie-title {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .watchlist-movie-genre {
+    margin-bottom: 4px;
+    font-size: 11px;
+  }
+  .watchlist-movie-year {
+    margin-bottom: 4px;
+    font-size: 11px;
+  }
+  .watchlist-movie-rating {
+    margin-bottom: 4px;
+    font-size: 11px;
+  }
+  .watchlist-movie-rating .star-icon {
+    font-size: 13px;
+  }
+  .delete-icon-card {
+    padding: 14px;
+  }
+  .delete-icon-card .delete-icon {
+    color: #dedede;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .watchlist-list-item-card {
+    margin: 20px 0px;
+  }
+  .watchlist-list-item {
+    padding: 12px;
+  }
+  .watchlist-image-card {
+    margin-right: 10px;
+  }
+  .watchlist-movie-content {
+    margin-left: 10px;
+  }
+  .watchlist-movie-title {
+    font-size: 14px;
+  }
+  .watchlist-movie-genre {
+    font-size: 12px;
+  }
+  .watchlist-movie-year {
+    font-size: 12px;
+  }
+  .watchlist-movie-rating {
+    font-size: 12px;
+  }
+  .watchlist-movie-rating .star-icon {
+    font-size: 14px;
+  }
+  .delete-icon-card {
+    padding: 14px;
+  }
+  .delete-icon-card .delete-icon {
+    display: none;
+  }
+  .delete-icon-card {
+    width: 70px;
+    height: 116px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2c2c;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .watchlist-list-item-card:hover .delete-icon-card {
+    display: flex;
+  }
+  .delete-icon-card .icon {
+    display: inline;
+    color: #dedede;
+    font-size: 18;
+  }
+}

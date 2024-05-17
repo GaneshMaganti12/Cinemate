@@ -1,0 +1,141 @@
+.watchlist-container {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.watchlist-card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 70px 0px 20px 0px;
+}
+.watchlist-list-container {
+  padding-left: 0px;
+  list-style-type: none;
+  width: 85%;
+}
+.watchlist-no-movies-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.watchlist-no-movies-card h1 {
+  color: #6f6f6f;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+}
+.error-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.error-image {
+  height: 200px;
+  width: 200px;
+}
+.error-title {
+  color: #e3e3e3;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+}
+.error-para {
+  color: #adadad;
+  font-size: 11px;
+  text-align: center;
+}
+.retry-button {
+  background-color: #b01e4d;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 3px 20px;
+}
+
+@media screen and (min-width: 640px) {
+  .watchlist-card {
+    padding: 78px 0px 24px 0px;
+  }
+  .watchlist-list-container {
+    width: 83%;
+  }
+  .watchlist-no-movies-card h1 {
+    font-size: 18px;
+  }
+  .error-image {
+    height: 280px;
+    width: 280px;
+  }
+  .error-title {
+    font-size: 16px;
+  }
+  .error-para {
+    font-size: 13px;
+  }
+  .retry-button {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .watchlist-card {
+    padding: 80px 0px 28px 0px;
+  }
+  .watchlist-list-container {
+    width: 80%;
+  }
+  .watchlist-no-movies-card h1 {
+    font-size: 20px;
+  }
+  .error-image {
+    height: 280px;
+    width: 280px;
+  }
+  .error-title {
+    font-size: 16px;
+  }
+  .error-para {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .watchlist-list-container {
+    width: 75%;
+  }
+  .watchlist-no-movies-card h1 {
+    font-size: 24px;
+  }
+  .error-image {
+    height: 330px;
+    width: 330px;
+  }
+  .error-title {
+    font-size: 18px;
+  }
+  .error-para {
+    font-size: 14px;
+  }
+  .retry-button {
+    padding: 2px 20px 5px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}

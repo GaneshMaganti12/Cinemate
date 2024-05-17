@@ -1,0 +1,271 @@
+.navbar-container {
+  height: 60px;
+  background-color: #404040;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 18px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 6;
+}
+.menu-bar-container {
+  position: absolute;
+  background-color: #252525;
+  width: 100%;
+  top: 60px;
+  z-index: 5;
+  list-style-type: none;
+  padding-left: 0;
+  transform: translateY(-150px);
+  transition: all 0.4s ease;
+}
+.menu-item {
+  color: #d5d5d5;
+  border-top: 1px solid #343434;
+  padding: 12px 15px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.menu-item:first-child {
+  border-top: none;
+}
+.cinemate-logo {
+  height: 45px;
+  width: 130px;
+  cursor: pointer;
+}
+.header-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-button {
+  color: #dfdfdf;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 8px;
+}
+.search-icon-input-container {
+  display: none;
+  align-items: center;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  width: 360px;
+  margin-right: 20px;
+}
+.search-icon-card {
+  background-color: #cacaca;
+  height: 32px;
+  padding: 4px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.search-icon {
+  color: #333333;
+  height: 22px;
+  width: 22px;
+}
+.search-input-card {
+  margin-left: 8px;
+}
+.search-input {
+  background-color: transparent;
+  color: #f8f8f8;
+  outline: none;
+  border: none;
+  height: 32px;
+  width: 270px;
+}
+.clear-icon-card {
+  margin-left: 6px;
+  cursor: pointer;
+  margin-right: 0;
+  width: 25px;
+}
+.search-input::placeholder {
+  color: #cacaca;
+}
+.header-link {
+  text-decoration: none;
+}
+.dropdown-navbar-button {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.watchlist-button-card {
+  display: none;
+  align-items: center;
+  margin-right: 10px;
+  cursor: default;
+  margin-left: 20px;
+}
+.watchlist-nav-button {
+  color: #dedede;
+  font-weight: 500;
+  font-size: 15px;
+}
+.dropdown {
+  position: relative;
+  margin-left: 10px;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: -40px;
+}
+.dropdown-link-button {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333333;
+}
+.dropdown-button {
+  border: none;
+  background-color: transparent;
+  margin: 10px;
+  padding-left: 5px;
+}
+.dropdown-button:first-child {
+  margin-top: 0;
+}
+.dropdown-button:last-child {
+  margin-bottom: 0;
+}
+.navbar-icon {
+  color: #dedede;
+  height: 20px;
+  width: 20px;
+  margin: 0px 4px;
+}
+.navbar-icon:first-child {
+  margin-left: 0;
+}
+.navbar-icon:last-child {
+  margin-right: 0;
+}
+.search-input-container {
+  position: absolute;
+  background-color: #545454;
+  top: 60px;
+  height: 50px;
+  width: 100%;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  transform: translateY(-50px);
+  transition: all 0.4s ease;
+}
+.search-input-menu-card {
+  width: 90%;
+}
+.search-menu-input {
+  background-color: transparent;
+  color: #dedede;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+.search-menu-input::placeholder {
+  color: #b4b4b4;
+}
+
+@media screen and (min-width: 640px) {
+  .navbar-container {
+    height: 62px;
+    padding: 0px 50px;
+  }
+  .cinemate-logo {
+    height: 48px;
+    width: 140px;
+  }
+  .navbar-icon {
+    height: 22px;
+    width: 22px;
+    margin: 0px 4px;
+  }
+  .menu-bar-container {
+    top: 62px;
+  }
+  .menu-item {
+    padding: 14px 24px;
+    font-size: 13px;
+  }
+  .search-input-container {
+    top: 55px;
+    height: 48px;
+    padding: 0px 24px;
+  }
+  .search-menu-input {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    height: 65px;
+    padding: 0px 55px;
+  }
+  .cinemate-logo {
+    height: 50px;
+    width: 150px;
+  }
+  .navbar-icon {
+    height: 23px;
+    width: 23px;
+    margin: 0px 5px;
+  }
+  .menu-bar-container {
+    top: 65px;
+  }
+  .menu-item {
+    padding: 14px 30px;
+    font-size: 14px;
+  }
+  .search-input-container {
+    top: 60px;
+    height: 52px;
+    padding: 0px 26px;
+  }
+  .search-menu-input {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-container {
+    height: 70px;
+    padding: 0px 85px;
+  }
+  .cinemate-logo {
+    height: 60px;
+    width: 180px;
+  }
+  .header-button {
+    font-size: 15px;
+  }
+  .search-icon-input-container {
+    display: flex;
+  }
+  .dropdown-navbar-button {
+    display: flex;
+  }
+  .watchlist-button-card {
+    display: flex;
+  }
+  .navbar-buttons-card {
+    display: none;
+  }
+  .search-input-container {
+    display: none;
+  }
+}

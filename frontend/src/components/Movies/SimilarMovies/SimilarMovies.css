@@ -1,0 +1,131 @@
+.similar-movies-list-container {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.similar-movie-list-card {
+  text-decoration: none;
+  margin: 0px 5px;
+}
+.similar-movie-list-card:first-child {
+  margin-left: 0;
+}
+.similar-movie-list-card:last-child {
+  margin-right: 0;
+}
+.similar-movie-list-item {
+  height: 100%;
+  width: 100%;
+}
+.similar-movie-poster {
+  height: 160px;
+  width: 135px;
+}
+.similar-movie-content-card {
+  width: 135px;
+  margin-top: 6px;
+  padding-left: 2px;
+}
+.similar-movie-rating {
+  color: #b8b8b8;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+.similar-movie-rating .star-icon {
+  font-size: 14px;
+  color: #c8a91f;
+  margin-bottom: 4px;
+}
+.similar-movie-title {
+  color: #dedede;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.similar-movie-year {
+  color: #b8b8b8;
+  margin-bottom: 2px;
+  font-size: 11px;
+}
+.similar-movie-genre {
+  color: #b8b8b8;
+  font-size: 11px;
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 640px) {
+  .similar-movie-list-card {
+    margin: 0px 8px;
+  }
+  .similar-movie-poster {
+    height: 165px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .similar-movie-list-card {
+    margin: 0px 10px;
+  }
+  .similar-movie-poster {
+    height: 185px;
+    width: 150px;
+  }
+  .similar-movie-content-card {
+    width: 150px;
+    margin-top: 8px;
+    padding-left: 3px;
+  }
+  .similar-movie-rating {
+    font-size: 13px;
+  }
+  .similar-movie-rating .star-icon {
+    font-size: 15px;
+  }
+  .similar-movie-title {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  .similar-movie-year {
+    font-size: 12px;
+  }
+  .similar-movie-genre {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .similar-movies-list-slider {
+    display: none;
+  }
+  .similar-movies-list-container {
+    display: flex;
+  }
+  .similar-movie-list-card {
+    margin: 0px 12px;
+  }
+  .similar-movie-poster {
+    height: 240px;
+    width: 185px;
+  }
+  .similar-movie-content-card {
+    width: 185px;
+    margin-top: 10px;
+  }
+  .similar-movie-rating {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .similar-movie-rating .star-icon {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .similar-movie-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .similar-movie-year {
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+  .similar-movie-genre {
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+}

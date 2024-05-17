@@ -1,0 +1,77 @@
+.cinemate-landing-page {
+  height: 100vh;
+  width: 100vw;
+  padding: 100px 25px 15px 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #414141;
+}
+.landing-page-content-card {
+  max-width: 500px;
+}
+.landing-page-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #dedede;
+}
+.landing-page-para {
+  font-size: 13px;
+  color: #b9b9b9;
+  margin-bottom: 0;
+}
+.landing-page-image {
+  width: 70%;
+  height: 50%;
+  max-width: 400px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .cinemate-landing-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 70px;
+  }
+  .landing-page-content-card {
+    margin-right: 20px;
+    padding: 40px 20px 20px 30px;
+  }
+  .landing-page-title {
+    font-size: 32px;
+  }
+  .landing-page-para {
+    font-size: 14px;
+  }
+  .landing-page-image {
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cinemate-landing-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 80px;
+    padding-left: 200px;
+  }
+  .landing-page-content-card {
+    max-width: 650px;
+  }
+  .landing-page-title {
+    font-size: 52px;
+    margin-bottom: 25px;
+    width: 500px;
+  }
+  .landing-page-para {
+    font-size: 16px;
+  }
+  .landing-page-image {
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
+  }
+}
