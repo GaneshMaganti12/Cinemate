@@ -402,7 +402,7 @@
   }
   .movie-detail-more-card {
     width: 85%;
-    margin-top: 0px;
+    margin-top: 8px;
   }
   .error-image {
     height: 280px;
@@ -538,6 +538,7 @@
   }
   .movie-detail-more-card {
     width: 60%;
+    margin-top: 18px;
   }
   .error-image {
     height: 330px;

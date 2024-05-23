@@ -1,6 +1,3 @@
-.top-cast-list-container {
-  display: none;
-}
 .top-cast-list {
   margin: 0px 10px;
   cursor: pointer;
@@ -51,19 +48,18 @@
     flex-wrap: wrap;
   }
   .top-cast-list {
-    margin-right: 30px;
-    margin-bottom: 35px;
+    margin-right: 50px;
     width: 100px;
   }
   .top-cast-list:first-child {
     margin-left: 20px;
   }
   .top-cast-image {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
   }
   .top-cast-name {
-    font-size: 13px;
+    font-size: 14px;
   }
   .top-cast-character {
     font-size: 13px;
@@ -71,9 +67,5 @@
   .top-cast-name {
     margin-bottom: 2px;
     text-align: center;
-  }
-
-  .top-cast-slider-container {
-    display: none;
   }
 }

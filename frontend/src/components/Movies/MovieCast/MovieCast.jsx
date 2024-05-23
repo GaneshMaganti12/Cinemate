@@ -37,7 +37,6 @@ function MovieCast(props) {
 
   return (
     <>
-      <div className="top-cast-list-container">{movieCast}</div>
       <div className="top-cast-slider-container">
         <Sliders>{movieCast}</Sliders>
       </div>

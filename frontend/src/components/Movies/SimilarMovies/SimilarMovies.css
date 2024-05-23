@@ -1,7 +1,7 @@
 .similar-movies-list-container {
   display: none;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
 }
 .similar-movie-list-card {
   text-decoration: none;
